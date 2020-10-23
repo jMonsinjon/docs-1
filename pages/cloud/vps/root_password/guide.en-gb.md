@@ -5,9 +5,11 @@ excerpt: Find out how to change the root password of a VPS
 section: Diagnostic and rescue mode
 ---
 
-**Last updated 15th October 2020**
+**Last updated 27th October 2020**
 
 ## Objective
+
+
 
 It may happen that you need to change the root password on your Linux operating system at one point. In this guide we explore how to change the root password on a Linux operating system in the following scenarios:
 - You know your root password, but you want to change it
@@ -16,8 +18,13 @@ It may happen that you need to change the root password on your Linux operating 
 ## Requirements
 
 - an OVHcloud [VPS service](https://www.ovhcloud.com/en-gb/vps/) already set up
-- administrative access (root) via SSH to your VPS (for regular password change)
+- login credentials received via email after the installation
 - access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager) (for rescue mode)
+
+> [!warning]
+>OVHcloud is providing you with services for which you are responsible, with regard to their configuration and management. You are therefore responsible for ensuring they function correctly.
+>
+>This guide is designed to assist you in common tasks as much as possible. Nevertheless, we recommend contacting a specialised provider and/or the software publisher for the service if you encounter any difficulties. We will not be able to assist you ourselves. You can find more information in the “Go further” section of this guide.
 
 ## Instructions
 
@@ -52,9 +59,9 @@ If you need further instructions about using rescue mode with a VPS, you may con
 
 #### Step 2: Identify the mount point
 
-The mount is created automatically on any VPS in the 2016 & 2018 range, so you just need to identify where your partition is mounted. To do this, you can use two commands:
+The mount is created automatically, therefore you just need to identify where your partition is mounted. To do this, you can use the following commands:
 
-##### df -h
+##### **df -h**
 
 ```sh
 df -h
@@ -69,7 +76,7 @@ tmpfs           5.8G     0  5.8G   0% /sys/fs/cgroup
 /dev/sdb15      105M  3.6M  101M   4% /mnt/sdb15
 ```
 
-##### lsblk
+##### **lsblk**
 
 ```sh
 lsblk
@@ -82,11 +89,11 @@ sdb       8:16   0   50G  0 disk
 └─sdb15   8:31   0  106M  0 part /mnt/sdb15
 ```
 
-The image above shows that your system partition is mounted on **/mnt/sdb1**.
+The example output above shows that the system partition is mounted on **/mnt/sdb1**.
 
 #### Step 3: CHROOT permissions
 
-You now need to edit the root directory, for the changes to be applied to your system. You can do this by using the chroot command. Please enter the following command:
+You now need to edit the root directory, for the changes to be applied to your system. You can do this by using the `chroot` command:
 
 ```sh
 chroot /mnt/sdb1/
@@ -98,7 +105,7 @@ You can check by typing the `ls -l` command, which will list the content stored 
 ls -l
 ```
 
-#### Step 4: change the root password
+#### Step 4: Change the root password
 
 Now, you just need to change the root password with the `passwd` command:
 

@@ -55,7 +55,7 @@ passwd: password updated successfully
 
 #### Step 1: Restart the VPS into rescue mode
 
-If you need further instructions about using rescue mode with a VPS, you may consult the [rescue mode guide](../rescue/)  to help you to reboot it into rescue mode.
+If you need further instructions about using rescue mode with a VPS, you may consult the [rescue mode guide](../rescue/).
 
 #### Step 2: Identify the mount point
 
@@ -118,14 +118,14 @@ Retype new UNIX password:
 passwd: password updated successfully
 ```
 
-Finally, reboot your VPS on its drive via your OVH Control Panel.
+Finally, reboot your VPS on its drive via your OVHcloud Control Panel.
 
 ### Troubleshooting
 
-After you have changed your password and rebooted the VPS from the control panel and you cannot, you should try the following:
+Try the following if you encounter boot issues after you have changed your password and initiated the reboot:
 
-- You should check the KVM. It can show some very important information as to why it cannot start. The [KVM guide](https://docs.ovh.com/gb/en/vps/use-kvm-for-vps/){.external} can provide you the help to find the KVM feature on the OVH control panel.
-- If the KVM is showing it is booting or cannot find the disk, ensure you have [boot logs enabled](https://docs.ovh.com/gb/en/vps/use-kvm-for-vps/){.external} and contact OVH support via a ticket from the control panel or by calling.
+- Check the KVM for important information as to why the VPS cannot start. Consult the [KVM guide](../use-kvm-for-vps/) for help using the KVM feature in the OVHcloud Control Panel.
+- If the KVM is showing the VPS booting or unable to find the disk, ensure you have [boot logs enabled](../use-kvm-for-vps/). Send the pertinent logs to our  support team by creating a support request in your [OVHcloud Control Panel](https://www.ovh.com/manager/dedicated/#/support/tickets/new) for further investigations.
 
 ## Go further
 

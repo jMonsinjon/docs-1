@@ -24,7 +24,9 @@ order: 1
 | Max. number of hosts per cluster |  64 | Hosts per cluster |
 | Max. number of clusters per PCC |  No limit | Number of cluster within the same virtual data centre |
 | Max. number of vDCs per PCC |  400 | Virtual data centres customers can add per vCenter |
-| Max. number of hosts per PCC |  - range **Hosts**: 340 hosts, 70 zpools - range **Hybrid**: 241 hosts, 120 zpools - range **BigDS**: 76 hosts, 205 zpools | Limits of hosts per vCenter |
+| Max. number of hosts per PCC |  - range **Hosts**: 340 hosts, 70 zpools
+- range **Hybrid**: 241 hosts, 120 zpools 
+- range **BigDS**: 76 hosts, 205 zpools | Limits of hosts per vCenter |
 | Max. number of VMs per SDDC |  25000 | VMs managed by the same vCenter |
 | Max. number of VMs per host |  1024 | VMs hosted on the same physical host |
 | Max. number of IPs per PCC |  1 x  /23 | Max. number of Public IPs assignable and usable per vCenter  |

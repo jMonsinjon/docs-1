@@ -15,26 +15,26 @@ order: 1
 ## Capabilities and known limits
 
 
-| Item | Value | Description |
+| Item | Description | Value |
 |:-----:|:-----:|:----------:|
-| Max. number of PCCs per customer ID |   No limit | Number of vCenters or packs per organisation |
-| Number of linked PCCs |  0 (not allowed) | vCenters linked (Enhanced Linked Mode) |
-| Minimum hosts per PCC (SLA) |  2 | Number of hosts per vCenter to maintain SLA |
-| Minimum hosts per PCC (no SLA) |  0 | Bare minimum hosts to work with vCenter without SLA |
-| Max. number of hosts per cluster |  64 | Hosts per cluster |
-| Max. number of clusters per PCC |  No limit | Number of cluster within the same virtual data centre |
-| Max. number of vDCs per PCC |  400 | Virtual data centres customers can add per vCenter |
-| Max. number of hosts per PCC |  range **Hosts**: 340 hosts, 70 zpools<br>range **Hybrid**: 241 hosts, 120 zpools<br>range **BigDS**: 76 hosts, 205 zpools | Limits of hosts per vCenter |
-| Max. number of VMs per SDDC |  25000 | VMs managed by the same vCenter |
-| Max. number of VMs per host |  1024 | VMs hosted on the same physical host |
-| Max. number of IPs per PCC |  1 x  /23 | Max. number of Public IPs assignable and usable per vCenter  |
-| vCPUs, RAM and disk consumed by regular vCenter |  4 vCPU, 16GB RAM, 290GB Disk | Resources assigned to vCenter (VCSA) |
-| vCPUs, RAM and disk consumed by regular NSX |  4 vCPU, 4GB RAM, 60GB Disk<br>4 vCPU, 2GB RAM, 28GB Disk | Resources assigned to NSX Manager and Controller |
-| vCPUs, RAM and disk consumed by regular vROPS |  4 vCPU, 16GB RAM | Resources assigned to vROPS |
-| Max. number of edge nodes |  2000 | Max. number of edge devices to be deployed per NSX |
-| Max. number of IPSec VPN Tunnels |  512 compact edge, 1600 large edge<br>4096 quad large edge<br>6000 extra large edge | Max. number of VPN tunnels per edge |
-| Max. number of vRack per vDC |  1 | Max. number of private networks per virtual data centre |
-| Max. number of L2 VPN Clients |  5 | Number of VPN clients to connect |
+| Max. number of PCCs per customer ID | Number of vCenters or packs per organisation | No limit |
+| Number of linked PCCs | vCenters linked (Enhanced Linked Mode) | 0 (not allowed) |
+| Minimum hosts per PCC (SLA) | Number of hosts per vCenter to maintain SLA | 2 |
+| Minimum hosts per PCC (no SLA) | Bare minimum hosts to work with vCenter without SLA | 0 |
+| Max. number of hosts per cluster | Hosts per cluster | 64 |
+| Max. number of clusters per PCC | Number of cluster within the same virtual data centre | No limit |
+| Max. number of vDCs per PCC | Virtual data centres customers can add per vCenter | 400 |
+| Max. number of hosts per PCC | Limits of hosts per vCenter | range **Hosts**: 340 hosts, 70 zpools<br>range **Hybrid**: 241 hosts, 120 zpools<br>range **BigDS**: 76 hosts, 205 zpools |
+| Max. number of VMs per SDDC | VMs managed by the same vCenter | 25000 |
+| Max. number of VMs per host | VMs hosted on the same physical host | 1024 |
+| Max. number of IPs per PCC |  Max. number of Public IPs assignable and usable per vCenter | 1 x /23 |
+| vCPUs, RAM and disk consumed by regular vCenter | Resources assigned to vCenter (VCSA) | 4 vCPU, 16GB RAM, 290GB Disk |
+| vCPUs, RAM and disk consumed by regular NSX |  Resources assigned to NSX Manager and Controller | 4 vCPU, 4GB RAM, 60GB Disk<br>4 vCPU, 2GB RAM, 28GB Disk |
+| vCPUs, RAM and disk consumed by regular vROPS | Resources assigned to vROPS | 4 vCPU, 16GB RAM |
+| Max. number of edge nodes | Max. number of edge devices to be deployed per NSX | 2000 |
+| Max. number of IPSec VPN Tunnels | Max. number of VPN tunnels per edge | 512 compact edge<br>1600 large edge<br>4096 quad large edge<br>6000 extra large edge |
+| Max. number of vRack per vDC | Max. number of private networks per virtual data centre | 1 |
+| Max. number of L2 VPN Clients | Number of VPN clients to connect | 5 |
 
 
 

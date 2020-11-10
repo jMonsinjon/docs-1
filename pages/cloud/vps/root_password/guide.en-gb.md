@@ -1,7 +1,7 @@
 ---
 title: Changing your root password on a VPS
 slug: root-password
-excerpt: Find out how to change the root password of a VPS
+excerpt: Find out how to change the root or admin password of a VPS
 section: Diagnostics and rescue mode
 ---
 
@@ -12,9 +12,9 @@ section: Diagnostics and rescue mode
 It may become necessary to change the root password on your Linux operating system. There are two possible scenarios:
 
 - You are still able to log in via SSH
-- You are unable to log in via SSH because you have lost your root password
+- You are unable to log in via SSH because you have lost your password
 
-**This guide will explain how to proceed with changing your root password depending on the initial situation.**
+**This guide will explain how to proceed with changing your admin password depending on the initial situation.**
 
 ## Requirements
 
@@ -43,7 +43,7 @@ Log in to your VPS via SSH. Switch to the root user, if necessary:
 ~#
 ```
 
-Change the password:
+Change the password of the current user:
 
 ```sh
 ~# passwd
@@ -115,9 +115,9 @@ You can check by typing the `ls -l` command, which will list the content stored 
 ls -l
 ```
 
-#### Step 4: Change the root password
+#### Step 4: Change the (root) password
 
-In the last step, change the root password with the `passwd` command:
+In the last step, change your password with the `passwd` command.
 
 ```sh
 ~# passwd
@@ -125,6 +125,19 @@ New password:
 Retype new password:
 passwd: password updated successfully
 ```
+
+If your VPS is of the current ranges (naming scheme: *vps-XXXXXXX.vps.ovh.net*), you have initially received login credentials for a user with elevated permissions instead of the default "root" account. Additionally, the SSH service is not accepting login requests as root.
+
+It is therefore necessary to enter the username you actually use to log in after `passwd`:
+
+```sh
+~# passwd <username>
+New password:
+Retype new password:
+passwd: password updated successfully
+```
+
+This will ensure that you can log in again with this username after rebooting, in case root login is disabled.
 
 Finally, reboot your VPS on its drive in your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager).
 

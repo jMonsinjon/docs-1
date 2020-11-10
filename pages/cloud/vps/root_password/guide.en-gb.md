@@ -5,7 +5,7 @@ excerpt: Find out how to change the root password of a VPS
 section: Diagnostics and rescue mode
 ---
 
-**Last updated 11th November 2020**
+**Last updated 10th November 2020**
 
 ## Objective
 
@@ -20,7 +20,7 @@ It may become necessary to change the root password on your Linux operating syst
 
 - an OVHcloud [VPS service](https://www.ovhcloud.com/en-gb/vps/) already set up
 - login credentials received via email after the installation (if still valid)
-- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager) (for switching to rescue mode)
+- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager) (for using rescue mode)
 
 > [!warning]
 >OVHcloud is providing you with services for which you are responsible, with regard to their configuration and management. You are therefore responsible for ensuring they function correctly.

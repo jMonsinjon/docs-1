@@ -156,7 +156,7 @@ PermitRootLogin yes
 
 Save the file and exit the editor.
 
-#### Step 1: Restart the SSH service
+#### Step 2: Restart the SSH service
 
 ```sh
 systemctl restart ssh
@@ -166,9 +166,9 @@ This should be sufficient to apply the changes. Alternatively, reboot the VPS (`
 
 ### Troubleshooting
 
-Try the following if you encounter boot issues after you have changed your password and initiated the reboot:
+If you encounter boot issues after you have changed your password and initiated the reboot:
 
-- Check the KVM for important information as to why the VPS cannot start. Consult the [KVM guide](../use-kvm-for-vps/) for help using the KVM feature in the OVHcloud Control Panel.
+- Check the KVM for important information as to why the VPS cannot start. Consult the [KVM guide](../use-kvm-for-vps/) for help using this feature in the OVHcloud Control Panel.
 - If the KVM is showing the VPS booting or unable to find the disk, ensure you have [boot logs enabled](../use-kvm-for-vps/). Relay the pertinent logs to our  support teams by creating a support request in your [OVHcloud Control Panel](https://www.ovh.com/manager/dedicated/#/support/tickets/new) for further investigations.
 
 ## Go further

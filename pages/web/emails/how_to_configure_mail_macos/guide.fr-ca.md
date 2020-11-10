@@ -100,6 +100,6 @@ OVHcloud propose une application web permettant d'accéder à votre adresse e-ma
 
 ## Aller plus loin
 
-[Configurer son compte Exchange sur Mail de macOS](../../microsoft-collaborative-solutions/exchange-configuration-automatique-sous-mail-mac/){.external}.
+[Configurer son compte Exchange sur Mail de macOS](../../microsoft-collaborative-solutions/exchange-configuration-mail-macos/){.external}.
 
 Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com){.external}.

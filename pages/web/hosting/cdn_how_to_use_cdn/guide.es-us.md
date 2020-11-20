@@ -102,7 +102,7 @@ Acceda a la pestaña `Multisitio`{.action} de su alojamiento, haga clic en `..`{
 
 - **Brotli**:  tipo de compresión que permite optimizar el tamaño de los archivos en caché.
 
-- **Regla de caché**: Cree hasta 5 reglas. Dichas indicaciones determinan la frecuencia de actualización del cacheado para determinados recursos del sitio web. ([seguir el siguiente paso](./#crear-una-regla-de-almacenamiento-en-cache).
+- **Regla de caché**: Cree hasta 5 reglas. Dichas indicaciones determinan la frecuencia de actualización del cacheado para determinados recursos del sitio web. ([seguir el siguiente paso](./#crear-una-regla-de-almacenamiento-en-cache)).
 
 Una vez seleccionadas las opciones, haga clic en `Aplicar la configuración`{.action} y seleccione `Aceptar la configuración`{.action} en la siguiente ventana.
 

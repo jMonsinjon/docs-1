@@ -102,7 +102,7 @@ Dirija-se ao separador `Multisite`{.action} do seu alojamento, clique em `...`{.
 
 - **Brotli**:  tipo de compressão que permite otimizar o tamanho dos seus ficheiros em cache.
 
-- **Regra de cache**: Crie até 5 regras. Elas definem a frequência de atualização de cache para certos recursos precisos no seu site. ([seguir o próximo passo](./#criar-uma-regra-deimplementaçao-de-cache).
+- **Regra de cache**: Crie até 5 regras. Elas definem a frequência de atualização de cache para certos recursos precisos no seu site. ([seguir o próximo passo](./#criar-uma-regra-deimplementaçao-de-cache)).
 
 Depois de escolher as opções, clique em `Aplicar configuração`{.action} e, a seguir, em `Validar a configuração`{.action} na janela seguinte.
 

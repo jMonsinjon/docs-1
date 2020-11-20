@@ -102,7 +102,7 @@ Clicca sulla scheda `Multisito`{.action} del tuo hosting, clicca sui tre puntini
 
 - **Brotli**:  tipo di compressione che permette di ottimizzare la dimensione dei tuoi file in cache.
 
-- **Regole della cache**: Crea fino a 5 regole. che definiscono la frequenza di aggiornamento della cache per alcune risorse specifiche del tuo sito. ([segui il passo successivo](./#crea-una-regola-di-inserimento-in-cache).
+- **Regole della cache**: Crea fino a 5 regole. che definiscono la frequenza di aggiornamento della cache per alcune risorse specifiche del tuo sito. ([segui il passo successivo](./#crea-una-regola-di-inserimento-in-cache)).
 
 Una volta selezionate le opzioni, clicca su `Applica la configurazione`{.action} e poi su `Conferma la configurazione`{.action} nella finestra successiva.
 

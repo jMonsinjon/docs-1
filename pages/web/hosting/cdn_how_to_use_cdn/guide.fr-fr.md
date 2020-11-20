@@ -98,7 +98,7 @@ Dirigez-vous sur l'onglet `Multisite`{.action} de votre hébergement, cliquez su
 
 - **Brotli** :  type de compression permettant une optimisation de la taille de vos fichiers en cache.
 
-- **Règle de cache** : Créez jusqu'à 5 règles. Elles définissent la fréquence de rafraîchissement de mise en cache pour certaines ressources précises sur votre site. ([suivre la prochaine étape](./#creer-une-regle-de-mise-en-cache).
+- **Règle de cache** : Créez jusqu'à 5 règles. Elles définissent la fréquence de rafraîchissement de mise en cache pour certaines ressources précises sur votre site. ([suivre la prochaine étape](./#creer-une-regle-de-mise-en-cache)).
 
 Une fois vos options choisies cliquez sur `Appliquer la configuration`{.action}, puis sur `Valider la configuration`{.action} sur la fenêtre suivante.
 
